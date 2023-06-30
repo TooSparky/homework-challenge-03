@@ -17,7 +17,9 @@ body,
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
-}/* Body Wrapper */
+}
+
+/* Body Wrapper */
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
@@ -77,6 +79,7 @@ header {
   clear: both;
 }
 
+/* For the generate password button */
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -102,6 +105,7 @@ button[disabled] {
   float: right;
 }
 
+/* To display the password */
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -132,6 +136,7 @@ button[disabled] {
   }
 }
 
+/* For even smaller screens */
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
